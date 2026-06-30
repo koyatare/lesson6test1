@@ -41,7 +41,7 @@ def calc_bmi(height_cm, weight_kg):
     if bmi < 18.5:
         judge = "低体重（やせ）"
     elif bmi < 25:
-        judge = "標準"
+        judge = "標準（普通）"
     elif bmi < 30:
         judge = "肥満（1度）"
     elif bmi < 35:
